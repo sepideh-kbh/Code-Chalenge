@@ -1,0 +1,30 @@
+.share-btn {
+  all: unset;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 16px;
+  min-height: 32px;
+  text-align: center;
+  width: 100%;
+
+  &.outlined-btn {
+    border: solid 1px #DE2D26;
+    border-radius: 4px;
+    color: #DE2D26;
+  }
+
+  &.filled-btn {
+    background-color: #DE2D26;
+    color: #FFFFFF;
+    span{
+      padding-right: 5px;
+    }
+  }
+  &.height48{
+    height: 48px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

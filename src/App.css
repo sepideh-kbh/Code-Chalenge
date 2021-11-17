@@ -1,0 +1,164 @@
+@viewport {
+  width: device-width;
+}
+
+@viewport {
+  zoom: 0.75;
+  min-zoom: 0.5;
+  max-zoom: 0.9;
+}
+
+@font-face {
+  font-family: "IranSans";
+  src: url("./assets/fonts/IRANSans.eot") format("eot");
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-size: 14px;
+  background-color: #E5E5E5;
+}
+
+body * {
+  padding: 0;
+  outline: none;
+  font-family: IranSans;
+  font-size: 14px;
+}
+
+.clear {
+  width: 0;
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ".";
+  display: block;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+i,
+address,
+b {
+  font-weight: normal;
+  margin: 0;
+  font-style: normal;
+}
+
+p {
+  margin: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none !important;
+}
+
+dl,
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+a,
+i {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.rtl {
+  direction: rtl !important;
+}
+
+.ltr {
+  direction: ltr !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+h2.title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1E1B1B;
+}
+
+.form-wrapper {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(219, 219, 219, 0.4);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  padding: 15px;
+  width: 432px;
+  margin: 0 auto;
+}
+
+.ant-form-rtl .ant-form-item-label {
+  text-align: right;
+}
+
+.form-wrapper label {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 16px;
+  color: #666464;
+  opacity: 0.68;
+}
+
+.form-wrapper input {
+  border: 1px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 48px;
+}
+
+.red-text {
+  color: #DE2D26;
+}
+.mb-1{
+  margin-bottom: 1rem;
+}
